@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <title>Map</title>
+
+    <style>
+        @import "Map.css";
+    </style>
+    
+
+</head>
+
+<body>
+    <div style="overflow: hidden;">
+        <div id="mapFrame">
+            <img id="box" style="position:absolute; width: 2047px; height: 1589px; left: 0px; top: 0px;" src="images/map-m.gif"></img>
+        </div>
+    
+        <div id="navigation">
+            <div id="upButton">
+                <button type="button" onclick="moveUp()">^</button>
+            </div>
+            <div id="downButton">
+                <button type="button" onclick="moveDown()">v</button>
+            </div>
+            <div id="rightButton">
+                <button type="button" onclick="moveRight()">&gt;</button>
+            </div>
+            <div id="leftButton">
+                <button type="button" onclick="moveLeft()">&lt;</button>
+            </div>
+            <div id="zoomInButton">
+                <button type="button" onclick="zoomIn()">+</button>
+            </div>
+            <div id="zoomOutButton">
+                <button type="button" onclick="zoomOut()">-</button>
+            </div>
+        </div>
+    </div>
+    <script src="Map.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
